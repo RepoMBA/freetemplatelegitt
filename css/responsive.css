@@ -1,0 +1,81 @@
+@media screen and (max-width: 1500px) {
+.login-image {
+    flex: 0 0 50%;
+}
+}
+
+@media screen and (max-width: 1300px) {
+.login-image {
+    flex: 0 0 50%;
+}
+.login-form {
+    flex: 0 0 35%;
+}	
+}
+@media screen and (max-width: 1100px) {
+.login-form {
+    padding: 30px 25px;
+	flex: 0 0 40%;
+}
+.form-submit .btn.btn-primary {
+    height: 60px;
+}
+}
+@media screen and (max-width: 990px) {
+.login-image {
+    display: none;
+}
+.login-form {
+    padding: 30px 25px;
+    flex: 0 0 400px;
+}
+#login-inner {
+    justify-content: center;
+}
+}
+@media screen and (max-width: 767px) {
+.login-title {
+    font-size: 20px;
+}
+.form-submit {
+    margin-top: 25px;
+}
+#login-inner {
+    padding: 30px 0;
+}
+.form-submit .btn.btn-primary {
+    height: 50px;
+    font-size: 18px;
+}
+.form-group {
+    margin-top: 20px;
+}
+.login-title {
+    font-size: 22px;
+}
+}
+@media screen and (max-width: 574px) {
+.login-form {
+    flex: 0 0 90%;
+}
+.forgot-pass-link {
+    flex: 0 0 100%;
+    text-align: center;
+}
+.remember-pass {
+    flex-wrap: wrap;
+}
+.or {
+    margin: 25px 0;
+}
+.login-form {
+    padding: 30px 25px;
+    flex: 0 0 96%;
+}
+.login-form-inner {
+    padding: 30px 20px 50px;
+}
+.already-account {
+    font-size: 14px;
+}
+}

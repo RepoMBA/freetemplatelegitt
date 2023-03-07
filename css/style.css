@@ -1,0 +1,233 @@
+@import "color.css";
+
+body {
+margin: 0;
+font-family: 'Poppins', sans-serif;
+}
+#login-outer {
+	width: 100%;
+    min-height: 100vh;
+	background: url(../images/login.jpg);
+	    background-size: 100%;
+		background-repeat: no-repeat;
+}
+.login-container {
+    width: 1350px;
+    margin: 0 auto;
+    max-width: 90%;
+}
+#login-inner {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    min-height: calc(100vh - 100px);
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.login-form {
+    width: 550px;
+}
+.login-form-inner {
+    box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.08);
+    border-radius: 24px;
+    background: #fff;
+    padding: 30px 50px 50px;	
+}
+.login-header {
+    text-align: center;
+}
+.login-title {
+    font-size: 30px;
+    margin-top: 10px;
+}
+.form-group input {
+    display: inline-block;
+    width: 100%;
+    border-width: 0;
+    height: 50px;
+    background: transparent;
+    font-size: 18px;
+    position: relative;
+    outline: unset;
+}
+.form-group {
+    position: relative;
+    border-bottom: 1px solid #828282;
+    margin-top: 25px;
+    display: inline-block;
+    width: 100%;
+}
+.form-group label {
+    position: absolute;
+    top: 18px;
+    left: 25px;
+}
+.form-group i {
+    position: absolute;
+    top: 22px;
+    opacity: 0.36;
+}
+.custom-check {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #828282;
+}
+.custom-check input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 17px;
+    width: 17px;
+    background-color: transparent;
+    border: 2px solid #D7D7D7;
+}
+.custom-check:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+.custom-check input:checked ~ .checkmark {
+    background-color: #55b3b1;
+    border-color: #55b3b1;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.custom-check input:checked ~ .checkmark:after {
+  display: block;
+}
+.custom-check .checkmark:after {
+    left: 5px;
+    top: 0px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.remember-pass {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.forgot-pass-link {
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+}
+.forgot-pass-link:hover {
+    color: #9b0242;
+    text-decoration: underline;
+}
+.form-submit {
+    margin-top: 35px;
+}
+.form-submit .btn.btn-success {
+    border-radius: 16px;
+    border-width: 0;
+    width: 100%;
+    font-size: 22px;
+    padding: 10px;
+    height: 70px;
+    cursor: pointer;
+}
+.or {
+    color: rgba(0, 0, 0, 0.68);
+    font-size: 12px;
+    text-align: center;
+    margin: 40px 0;
+    position: relative;
+}
+.or:before {
+    content: "";
+    width: 100%;
+    border-bottom: 1px solid #000000;
+    display: inline-block;
+    opacity: 0.1;
+    position: absolute;
+    left: 0;
+    top: 9px;
+}
+.or span {
+    background: #fff;
+    padding: 0 10px;
+    position: relative;
+}
+.social-login {
+    display: flex;
+    justify-content: center;
+}
+.social-login a {
+    margin: 0 30px;
+}
+img {
+    max-width: 100%;
+}
+.already-account {
+    text-align: center;
+    margin-top: 30px;
+    color: #979797;
+}
+.already-account a {
+    color: #9B0243;
+    text-decoration: none;
+    font-weight: 600;
+}
+.already-account a:hover {
+    text-decoration: underline;
+}
+.password-requirement {
+    color: #828282;
+    font-size: 14px;
+    margin-top: 15px;
+}
+.password-requirement ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+.password-requirement ul li {
+    position: relative;
+    padding-left: 25px;
+    margin: 3px 0;
+}
+.password-requirement ul li:before {
+    position: absolute;
+    content: "";
+    background: url(../images/litick.png);
+    width: 20px;
+    height: 20px;
+    left: 0;
+    background-repeat: no-repeat;
+    top: 4px;
+}
+.two-column {
+    display: flex;
+    column-gap: 30px;
+}
+
+
+
+
+
+
+
+
+
